@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@500&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+}
+  
+a {
+     color: #fff;
+     text-decoration: none;
+     transition: 0.3s;
+     padding: 20px;
+}
+  
+a:hover {
+     opacity: 0.7;
+     background-color: #1e3470;
+}
+  
+.logo {
+     font-size: 24px;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+}
+  
+nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background: #2e50ad;
+     height: 8vh;
+}
+  
+.nav-list {
+     list-style: none;
+     display: flex;
+}
+  
+.nav-list li {
+     letter-spacing: 3px;
+     margin-left: 32px;
+}
+  
+.menu {
+     display: none;
+     cursor: pointer;
+}
+  
+.menu div {
+     width: 32px;
+     height: 2px;
+     background: #fff;
+     margin: 8px;
+     transition: 0.3s;
+}
+
+i {
+    color: #fff;
+}
+
+footer {
+    background-color: #2e50ad;
+    padding: 50px;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.row-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-inf h4 {
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-inf ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+#inf1 {
+    padding-right: 200px;
+}
+
+#inf2 {
+    padding-right: 200px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    padding-bottom: 40px;
+    font-size: 60px;
+    font-family: 'Rubik', sans-serif;
+}
+
+form {
+    padding: 100px;
+}
+
+#login {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#password {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-bottom: 30px;
+    background-color: #2e50ad;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #1e3470;
+}
